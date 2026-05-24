@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services — TechNera Ltd</title>
+    <meta name="description" content="TechNera offers custom web development, educational platforms, and AI automation services for UK businesses.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav" id="nav">
+        <div class="container">
+            <a href="index.html" class="nav-logo">Tech<span>Nera</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="contact.html" class="nav-cta">Get a Quote</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero">
+        <div class="container">
+            <span class="section-label">Our Services</span>
+            <h1>Digital Solutions That <span class="highlight">Drive Results</span></h1>
+            <p class="page-hero-sub">We specialise in three core areas — each delivered with the same obsessive attention to quality, performance, and user experience.</p>
+        </div>
+    </section>
+
+    <!-- SERVICE DETAIL: WEB -->
+    <section class="service-detail" id="web">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content reveal">
+                    <div class="service-icon web">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="16 18 22 12 16 6"/><polyline points="8 6 2 12 8 18"/></svg>
+                    </div>
+                    <h2>Web & App Development</h2>
+                    <p>From marketing sites to complex SaaS platforms, we build fast, responsive, and scalable web applications that convert visitors into customers. Every project starts with strategy and ends with measurable results.</p>
+                    <ul class="service-features">
+                        <li>
+                            <strong>Custom Websites</strong>
+                            <span>Bespoke designs that reflect your brand and outperform templates in every metric.</span>
+                        </li>
+                        <li>
+                            <strong>Web Applications</strong>
+                            <span>Full-stack apps with authentication, dashboards, real-time features, and API integrations.</span>
+                        </li>
+                        <li>
+                            <strong>E-Commerce</strong>
+                            <span>Headless commerce solutions with Stripe, inventory management, and conversion-optimised checkout flows.</span>
+                        </li>
+                        <li>
+                            <strong>Performance Optimisation</strong>
+                            <span>Core Web Vitals tuning, lazy loading, CDN configuration, and sub-second page loads.</span>
+                        </li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Next.js</span>
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">TypeScript</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">Supabase</span>
+                        <span class="tech-tag">Vercel</span>
+                    </div>
+                </div>
+                <div class="service-detail-visual reveal">
+                    <div class="detail-card">
+                        <div class="detail-card-header">
+                            <span class="dot red"></span>
+                            <span class="dot yellow"></span>
+                            <span class="dot green"></span>
+                        </div>
+                        <div class="detail-card-body">
+                            <div class="code-line"><span class="code-keyword">const</span> app = <span class="code-func">createApp</span>({</div>
+                            <div class="code-line indent"><span class="code-prop">framework</span>: <span class="code-string">'Next.js'</span>,</div>
+                            <div class="code-line indent"><span class="code-prop">database</span>: <span class="code-string">'Supabase'</span>,</div>
+                            <div class="code-line indent"><span class="code-prop">deploy</span>: <span class="code-string">'Vercel'</span>,</div>
+                            <div class="code-line">});</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICE DETAIL: EDUCATION -->
+    <section class="service-detail alt" id="education">
+        <div class="container">
+            <div class="service-detail-grid reverse">
+                <div class="service-detail-content reveal">
+                    <div class="service-icon edu">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#8b5cf6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+                    </div>
+                    <h2>Educational Platforms</h2>
+                    <p>We build custom learning management systems and educational technology products that keep learners engaged and give educators the tools they need. From K-12 to corporate training, we understand the pedagogy behind the code.</p>
+                    <ul class="service-features">
+                        <li>
+                            <strong>Learning Management Systems</strong>
+                            <span>Custom LMS platforms with course creation, progress tracking, and certification management.</span>
+                        </li>
+                        <li>
+                            <strong>Video-Based Learning</strong>
+                            <span>Adaptive video streaming with chapters, quizzes, note-taking, and completion tracking.</span>
+                        </li>
+                        <li>
+                            <strong>Assessment Engines</strong>
+                            <span>Timed exams, auto-grading, question banks, anti-cheating measures, and detailed analytics.</span>
+                        </li>
+                        <li>
+                            <strong>Student Analytics</strong>
+                            <span>Dashboards for educators to track engagement, identify at-risk learners, and measure outcomes.</span>
+                        </li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tech-tag">React</span>
+                        <span class="tech-tag">Video.js</span>
+                        <span class="tech-tag">PostgreSQL</span>
+                        <span class="tech-tag">WebRTC</span>
+                        <span class="tech-tag">Canvas API</span>
+                    </div>
+                </div>
+                <div class="service-detail-visual reveal">
+                    <div class="detail-card purple-glow">
+                        <div class="detail-mockup">
+                            <div class="mockup-sidebar">
+                                <div class="mockup-nav-item active"></div>
+                                <div class="mockup-nav-item"></div>
+                                <div class="mockup-nav-item"></div>
+                                <div class="mockup-nav-item"></div>
+                            </div>
+                            <div class="mockup-main">
+                                <div class="mockup-bar"></div>
+                                <div class="mockup-content-block"></div>
+                                <div class="mockup-content-block short"></div>
+                                <div class="mockup-progress">
+                                    <div class="mockup-progress-fill" style="width: 72%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SERVICE DETAIL: AI -->
+    <section class="service-detail" id="ai">
+        <div class="container">
+            <div class="service-detail-grid">
+                <div class="service-detail-content reveal">
+                    <div class="service-icon ai">
+                        <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#f97316" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a4 4 0 0 1 4 4c0 1.95-1.4 3.58-3.25 3.93"/><path d="M8.24 9.93A4 4 0 0 1 8 6a4 4 0 0 1 4-4"/><circle cx="12" cy="14" r="4"/><path d="M7 20.7a7 7 0 0 1 10 0"/></svg>
+                    </div>
+                    <h2>AI Automation</h2>
+                    <p>We don't just bolt on AI — we integrate it meaningfully into your business processes. From intelligent customer support to automated data pipelines, our AI solutions save real time and unlock new capabilities.</p>
+                    <ul class="service-features">
+                        <li>
+                            <strong>Intelligent Chatbots</strong>
+                            <span>Context-aware conversational AI that handles customer queries, bookings, and support tickets 24/7.</span>
+                        </li>
+                        <li>
+                            <strong>Document Processing</strong>
+                            <span>Automated extraction, classification, and summarisation of documents using LLMs and RAG pipelines.</span>
+                        </li>
+                        <li>
+                            <strong>Workflow Automation</strong>
+                            <span>Connect your tools, eliminate manual steps, and let AI handle the repetitive work across your stack.</span>
+                        </li>
+                        <li>
+                            <strong>Predictive Analytics</strong>
+                            <span>ML-powered forecasting for sales, churn, inventory, and demand — with actionable dashboards.</span>
+                        </li>
+                    </ul>
+                    <div class="tech-tags">
+                        <span class="tech-tag">Claude AI</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">LangChain</span>
+                        <span class="tech-tag">RAG</span>
+                        <span class="tech-tag">FastAPI</span>
+                        <span class="tech-tag">Vector DB</span>
+                    </div>
+                </div>
+                <div class="service-detail-visual reveal">
+                    <div class="detail-card coral-glow">
+                        <div class="ai-flow">
+                            <div class="ai-node input">Input</div>
+                            <div class="ai-arrow">&darr;</div>
+                            <div class="ai-node process">AI Process</div>
+                            <div class="ai-arrow">&darr;</div>
+                            <div class="ai-node output">Output</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- PRICING APPROACH -->
+    <section class="pricing-approach">
+        <div class="container">
+            <div class="section-header reveal">
+                <span class="section-label">Pricing</span>
+                <h2>Transparent, Project-Based Pricing</h2>
+                <p>No hourly billing surprises. We scope every project upfront and deliver a fixed quote so you always know exactly what you're investing.</p>
+            </div>
+            <div class="pricing-grid reveal">
+                <div class="pricing-card">
+                    <h3>Starter</h3>
+                    <p class="pricing-desc">Perfect for landing pages, small business websites, and MVPs.</p>
+                    <div class="pricing-range">From &pound;2,500</div>
+                    <ul class="pricing-features">
+                        <li>Up to 5 pages</li>
+                        <li>Responsive design</li>
+                        <li>CMS integration</li>
+                        <li>2 weeks delivery</li>
+                    </ul>
+                    <a href="contact.html" class="btn-ghost">Get Started</a>
+                </div>
+                <div class="pricing-card featured">
+                    <div class="pricing-popular">Most Popular</div>
+                    <h3>Growth</h3>
+                    <p class="pricing-desc">For web apps, educational platforms, and businesses ready to scale.</p>
+                    <div class="pricing-range">From &pound;8,000</div>
+                    <ul class="pricing-features">
+                        <li>Custom web application</li>
+                        <li>User authentication</li>
+                        <li>Dashboard & analytics</li>
+                        <li>API integrations</li>
+                        <li>4-8 weeks delivery</li>
+                    </ul>
+                    <a href="contact.html" class="btn-primary">Get Started &rarr;</a>
+                </div>
+                <div class="pricing-card">
+                    <h3>Enterprise</h3>
+                    <p class="pricing-desc">For complex platforms, AI systems, and large-scale applications.</p>
+                    <div class="pricing-range">Custom Quote</div>
+                    <ul class="pricing-features">
+                        <li>Full-stack platform</li>
+                        <li>AI/ML integration</li>
+                        <li>Dedicated support</li>
+                        <li>Ongoing maintenance</li>
+                    </ul>
+                    <a href="contact.html" class="btn-ghost">Let's Talk</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="contact-cta">
+        <div class="container">
+            <h2>Ready to Start Your Project?</h2>
+            <p>Tell us about your idea and we'll get back to you within 24 hours with a plan.</p>
+            <a href="mailto:official@techneraltd.com" class="contact-email">official@techneraltd.com</a>
+            <a href="contact.html" class="btn-white">Get a Free Quote &rarr;</a>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">Tech<span>Nera</span></a>
+                    <p>A UK-based digital product company building custom websites, educational platforms, and AI automation systems for ambitious teams.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#web">Web Development</a></li>
+                        <li><a href="services.html#education">Educational Platforms</a></li>
+                        <li><a href="services.html#ai">AI Automation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="work.html">Our Work</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:official@techneraltd.com">official@techneraltd.com</a></li>
+                        <li><a href="#">London, United Kingdom</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 TechNera Ltd. All rights reserved.</span>
+                <span>Registered in England & Wales</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>

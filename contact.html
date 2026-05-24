@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — TechNera Ltd</title>
+    <meta name="description" content="Get in touch with TechNera Ltd. Tell us about your project and we'll respond within 24 hours.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVIGATION -->
+    <nav class="nav" id="nav">
+        <div class="container">
+            <a href="index.html" class="nav-logo">Tech<span>Nera</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="services.html">Services</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+                <li><a href="contact.html" class="nav-cta">Get a Quote</a></li>
+            </ul>
+            <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- PAGE HERO -->
+    <section class="page-hero compact">
+        <div class="container">
+            <span class="section-label">Contact</span>
+            <h1>Let's Build Something <span class="highlight">Together</span></h1>
+            <p class="page-hero-sub">Tell us about your project and we'll get back to you within 24 hours with a plan and a quote.</p>
+        </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-grid">
+                <!-- Contact Form -->
+                <div class="contact-form-wrapper reveal">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" placeholder="John Smith" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" placeholder="john@company.com" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company" placeholder="Your company name">
+                        </div>
+                        <div class="form-group">
+                            <label for="service">What do you need?</label>
+                            <select id="service" name="service" required>
+                                <option value="" disabled selected>Select a service</option>
+                                <option value="web">Web & App Development</option>
+                                <option value="education">Educational Platform</option>
+                                <option value="ai">AI Automation</option>
+                                <option value="consulting">Consulting / Advisory</option>
+                                <option value="other">Something Else</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="budget">Estimated Budget</label>
+                            <select id="budget" name="budget">
+                                <option value="" disabled selected>Select a range</option>
+                                <option value="2500-5000">&pound;2,500 - &pound;5,000</option>
+                                <option value="5000-10000">&pound;5,000 - &pound;10,000</option>
+                                <option value="10000-25000">&pound;10,000 - &pound;25,000</option>
+                                <option value="25000+">&pound;25,000+</option>
+                                <option value="unsure">Not sure yet</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Tell us about your project</label>
+                            <textarea id="message" name="message" rows="5" placeholder="What are you building? What problem does it solve? Any timeline constraints?" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-primary form-submit">Send Message &rarr;</button>
+                        <p class="form-note">We respond to every enquiry within 24 hours.</p>
+                    </form>
+                    <div class="form-success" id="formSuccess" style="display: none;">
+                        <div class="success-icon">
+                            <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="#10b981" stroke-width="2"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+                        </div>
+                        <h3>Message Sent!</h3>
+                        <p>Thanks for reaching out. We'll review your project details and get back to you within 24 hours.</p>
+                    </div>
+                </div>
+
+                <!-- Contact Info -->
+                <div class="contact-info reveal">
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                        </div>
+                        <h4>Email Us</h4>
+                        <a href="mailto:official@techneraltd.com">official@techneraltd.com</a>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+                        </div>
+                        <h4>Location</h4>
+                        <p>London, United Kingdom</p>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>
+                        </div>
+                        <h4>Response Time</h4>
+                        <p>Within 24 hours, Monday to Friday</p>
+                    </div>
+                    <div class="contact-info-card">
+                        <div class="contact-info-icon">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#3b82f6" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+                        </div>
+                        <h4>Company</h4>
+                        <p>TechNera Ltd<br>Registered in England & Wales</p>
+                    </div>
+
+                    <div class="faq-section">
+                        <h3>Frequently Asked</h3>
+                        <div class="faq-item">
+                            <h4>How long does a typical project take?</h4>
+                            <p>Most projects are delivered in 2-12 weeks depending on scope. We'll give you a clear timeline during our initial consultation.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>Do you offer ongoing support?</h4>
+                            <p>Yes. We offer monthly retainer packages for maintenance, updates, and feature additions after launch.</p>
+                        </div>
+                        <div class="faq-item">
+                            <h4>What's your tech stack?</h4>
+                            <p>We primarily work with Next.js, React, Node.js, Python, Supabase, and Claude AI — chosen for reliability and speed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <a href="index.html" class="nav-logo">Tech<span>Nera</span></a>
+                    <p>A UK-based digital product company building custom websites, educational platforms, and AI automation systems for ambitious teams.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="services.html#web">Web Development</a></li>
+                        <li><a href="services.html#education">Educational Platforms</a></li>
+                        <li><a href="services.html#ai">AI Automation</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="work.html">Our Work</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Contact</h4>
+                    <ul>
+                        <li><a href="mailto:official@techneraltd.com">official@techneraltd.com</a></li>
+                        <li><a href="#">London, United Kingdom</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <span>&copy; 2026 TechNera Ltd. All rights reserved.</span>
+                <span>Registered in England & Wales</span>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <script>
+        var form = document.getElementById('contactForm');
+        var success = document.getElementById('formSuccess');
+        if (form) {
+            form.addEventListener('submit', function(e) {
+                e.preventDefault();
+                form.style.display = 'none';
+                success.style.display = 'block';
+            });
+        }
+    </script>
+</body>
+</html>
