@@ -80,15 +80,13 @@ a {
 }
 
 .nav-logo {
-    font-family: var(--font-heading);
-    font-size: 1.5rem;
-    font-weight: 700;
-    color: var(--text-heading);
-    letter-spacing: -0.5px;
+    display: flex;
+    align-items: center;
 }
 
-.nav-logo span {
-    color: var(--accent-blue);
+.nav-logo img {
+    height: 32px;
+    width: auto;
 }
 
 .nav-links {

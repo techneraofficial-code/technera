@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 48" fill="none">
+  <!-- Icon Mark - Abstract "T" + circuit/connection nodes -->
+  <defs>
+    <linearGradient id="logoGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3b82f6"/>
+      <stop offset="100%" style="stop-color:#8b5cf6"/>
+    </linearGradient>
+  </defs>
+  <!-- Hexagonal tech icon -->
+  <path d="M24 4L38.5 12.5V29.5L24 38L9.5 29.5V12.5L24 4Z" stroke="url(#logoGrad)" stroke-width="2.5" fill="none"/>
+  <!-- Inner T shape -->
+  <path d="M15 15H33M24 15V33" stroke="url(#logoGrad)" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Circuit nodes -->
+  <circle cx="15" cy="15" r="2" fill="#3b82f6"/>
+  <circle cx="33" cy="15" r="2" fill="#8b5cf6"/>
+  <circle cx="24" cy="33" r="2" fill="#6366f1"/>
+  <!-- Wordmark -->
+  <text x="50" y="32" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#f1f5f9">Tech</text>
+  <text x="104" y="32" font-family="'Space Grotesk', 'Segoe UI', sans-serif" font-size="22" font-weight="700" fill="#3b82f6">Nera</text>
+</svg>
